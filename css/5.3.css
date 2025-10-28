@@ -1,0 +1,149 @@
+
+#tieude{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.navv{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: beige;
+    display: grid;
+    grid-template-columns:60% 40%;
+    border: 1px solid black;
+    padding:10px;
+    margin:5px;
+}
+.dieuhuong{
+    text-align: center;
+    justify-content: center;
+}
+.search{
+    margin-left: 50px;
+    float: right;
+}
+.noidung{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 900px auto;
+    gap: 90PX;
+    padding:10px;
+    margin:5px;
+    border: 1px solid black;
+}
+.sanpham{
+    display: grid;
+    margin: 5px;
+    grid-template-columns: 33% 33% 33%;
+    grid-auto-flow: 33% 33% 33%;
+    padding: 4px;
+    align-items: center;
+    gap:2px;
+    background-color: beige;
+}
+.cardheader{
+    padding: 5px;
+}
+.card{
+    display: grid;
+    grid-template-rows: 20% 60% 20%;
+    align-items: center;
+    border: 1px solid black;
+}
+.cardbody{
+    align-items: center;
+    align-content: center;
+}
+.cardfoot{
+    padding: 10px;
+    font-size: larger;
+}
+.hinhanh{
+    max-width: 80%;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    margin-left: 24px;
+}
+.tienich{
+    display: grid;
+    grid-template-rows: 30% 20% 50%;
+}
+.giohang{
+    display: grid;
+    grid-template-rows: 20% 70% 10%;
+    border: 1px solid black;
+}
+.giohanghead{
+    padding: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    background-color: beige;
+}
+.giohangbody{
+    display: flex;
+    padding: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+.hinhgiohang{
+    max-width: 80%;
+    height: auto;
+}
+.danhsachgiohang{
+    padding: 5px;
+    list-style-type: none;
+}
+.timkiem{
+    border: 1px solid black;
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: 40% 60%;
+}
+.timkiemhead{
+    background-color: beige;
+    border: 1px solid black;
+    margin: 5px;
+    padding:5px;
+}
+.timkiembody{
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px;
+}
+.chungloai{
+    padding:10px;
+    border: 1px solid black;
+    margin-top: 10px;
+    display:grid;
+    grid-template-rows: 20% 80%;
+}
+.chungloaihead{
+    background-color: beige;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+.danhsachchungloai{
+   list-style-type: none;
+   line-height: 50px;
+   border: 1px solid black;
+}
+footer{
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 5px;
+}
+.lienket{
+    color: rgb(136, 136, 237);
+    text-decoration: none;
+    
+}
